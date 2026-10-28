@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "purpose": "Explicit allowlist for this independent public release; no local configuration or history is imported.",
+  "files": [
+    ".gitattributes",
+    ".github/workflows/checks.yml",
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "commands/dispatch.md",
+    "docs/DEVELOPMENT.md",
+    "docs/PRIVACY.md",
+    "docs/VALIDATION.md",
+    "examples/task-brief.md",
+    "examples/task-receipt.md",
+    "examples/usage-summary.json",
+    "release-manifest.json",
+    "scripts/check_public_release.py",
+    "scripts/summarize_usage.py",
+    "skills/cost-aware-delegation/SKILL.md",
+    "skills/cost-aware-delegation/SOURCE.md",
+    "tests/test_release.py",
+    "tests/test_usage.py"
+  ]
+}

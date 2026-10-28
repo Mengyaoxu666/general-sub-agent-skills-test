@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "quality_passed": true,
+  "arms": {
+    "A": {
+      "complete": true,
+      "root_calls": [
+        {"input": 100, "output": 30, "reasoning": 20, "cache": {"read": 50, "write": 0}}
+      ],
+      "children": []
+    },
+    "B": {
+      "complete": true,
+      "root_calls": [
+        {"input": 60, "output": 15, "reasoning": 10, "cache": {"read": 15, "write": 0}}
+      ],
+      "children": [
+        {"root_calls": [{"input": 900, "output": 300, "reasoning": 100, "cache": {"read": 0, "write": 0}}]}
+      ]
+    }
+  }
+}
